@@ -33,3 +33,7 @@ Describe the differences between forks, clones, and branches. When would you use
 What is the benefit of having a copy of the last known state of the remote stored locally?	
 
     We have available all the latest changes made by other people 
+	
+	
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+      Making changes in master indicates that you are sure about them and that they work properly and without bugs. Also it means that all the other people working on the project are aware of the changes and they approve them completely. So making changes in a new branch leaves master as it is (safe and working) and the changes can be reviued by the team approved and then merge in the master branch  
